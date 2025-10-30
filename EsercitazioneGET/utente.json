@@ -1,0 +1,9 @@
+[
+  {
+    "nome": "Admin",
+    "cognome": "Admin",
+    "email": "admin.admin@example.com",
+    "login": "admin",
+    "password": "admin"
+  }
+]
