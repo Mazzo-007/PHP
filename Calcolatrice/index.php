@@ -48,12 +48,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="Num2" class="general">Numero2:</label>
         <input type="number" name="num2" id="num2" value="<?php echo htmlspecialchars($_POST['num2'] ?? '', ENT_QUOTES); ?>" required>
         <label for="Operatore" class="general">Operatore:</label>
-        <input type="submit" name="Oper" id="somma" value="Somma">
-        <input type="submit" name="Oper" id="sott" value="Sottrazione">
-        <input type="submit" name="Oper" id="molt" value="Moltiplicazione">
-        <input type="submit" name="Oper" id="div" value="Divisione">
+        <select name="Oper" id="Operator">
+            <option value="Somma">Somma</option>
+            <option value="Sottrazione">Sottrazione</option>
+            <option value="Moltiplicazione">Moltiplicazione</option>
+            <option value="Divisione">Divisione</option>
+        </select>
+        <input type="submit" value="Calcola">
         <label for="Risultato" class="general">Risultato:</label>   
-        <label for="Risultato" id="result"><?php echo htmlspecialchars($result ?? '', ENT_QUOTES); ?></label>
+        <label for="Risultato" id="result"><?php echo $result ?? "";?></label>
     </form>
 </body>
 </html>
