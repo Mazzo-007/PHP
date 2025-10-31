@@ -26,18 +26,18 @@ form {
     gap: 15px;
     min-width: 300px;
 }
-input[type="number"], [id="result"] {
+input[type="number"], [id="result"], [id="num1"] {
     padding: 10px;
     border: 1px solid #b2bec3;
     border-radius: 5px;
     font-size: 1em;
     transition: border 0.2s;
 }
-input[type="number"]:focus, [id="result"]:focus {
+input[type="number"]:focus, [id="result"]:focus, [id="num1"]:focus {
     border: 1.5px solid #0984e3;
     outline: none;
 }
-input[type="submit"], [type="button"] {
+input[type="submit"] {
     background: #0984e3;
     color: #fff;
     border: none;
