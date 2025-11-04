@@ -155,7 +155,7 @@
                 echo "<h3>Username o password errati</h3>";
             }
         } else {
-            echo "<script>window.location.href = 'http://mazzoni.luca.tave.osdb.it/PHP/EsercitazioneGET/index.html';</script>";
+            echo "<script>window.location.href = 'http://localhost/PHP/EsercitazioneGET/index.html';</script>";
             die();
         }
     ?>

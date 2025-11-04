@@ -1,9 +1,16 @@
 [
-  {
-    "nome": "Admin",
-    "cognome": "Admin",
-    "email": "admin.admin@example.com",
-    "login": "admin",
-    "password": "admin"
-  }
+    {
+        "nome": "Admin",
+        "cognome": "Admin",
+        "email": "admin.admin@example.com",
+        "login": "admin",
+        "password": "admin"
+    },
+    {
+        "nome": "Luca",
+        "cognome": "Mazzoni",
+        "email": "luca.mazzoni007@gmail.com",
+        "login": "Mazzo",
+        "password": "Mazzo"
+    }
 ]
