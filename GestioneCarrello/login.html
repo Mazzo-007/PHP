@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>Pagina di Login</h1>
+    <hr>
+    <h3>Inserisci le tue credenziali di accesso</h3>
+    
+    <form action="controllo.php" method="get">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+        <input type="submit" value="Login">
+        <label>Non sei registrato? <a href="registrazioneUtente.html">Clicca qui</a> per registrarti.</label>
+        <div class="center-link">
+            <a href="index.html">Clicca qui</a> per la home
+        </div>
+    </form>
+</body>
+</html>
