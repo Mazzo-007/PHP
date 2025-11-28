@@ -10,7 +10,7 @@ function login ($utente) {
 }
 
 function MostraOggetti () {
-    $nomeFile = "utente.json";
+    $nomeFile = "Oggetti.json";
     //1. verifico se il file esiste
     if (!file_exists($nomeFile)) {
         die ("File non esistente");
@@ -19,6 +19,10 @@ function MostraOggetti () {
         //var_dump --> stampa il tipo di variabile e il suo contenuto
         //var_dump($contenuto);
         $dati = json_decode($contenuto, true); //con true converto in array associativo
+    }
+
+    foreach ($dati as $oggetto) {
+        echo ("<input type='checkbox' name='{$oggetto['id']}' value='{$oggetto['nome']}'>");
     }
 }
 
