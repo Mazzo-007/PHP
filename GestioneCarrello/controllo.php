@@ -1,3 +1,29 @@
+<?php
+
+function login ($utente) {
+    if ($utente['login'] === $_POST['username'] && $utente['password'] === $_POST['password']) {
+        global $controllo;
+        echo "<h1>Benvenuto " . $utente['nome'] . "</h1>";
+        echo "<h3>Accesso effettuato con successo</h3>";
+        $controllo = false;
+    }
+}
+
+function MostraOggetti () {
+    $nomeFile = "utente.json";
+    //1. verifico se il file esiste
+    if (!file_exists($nomeFile)) {
+        die ("File non esistente");
+    } else {
+        $contenuto = file_get_contents($nomeFile);
+        //var_dump --> stampa il tipo di variabile e il suo contenuto
+        //var_dump($contenuto);
+        $dati = json_decode($contenuto, true); //con true converto in array associativo
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -141,36 +167,23 @@
             $dati = json_decode($contenuto, true); //con true converto in array associativo
         }
 
-        if (isset($_GET['username']) && isset($_GET['password']) && empty($_GET['username']) == false && empty($_GET['password']) == false) {
+        if (isset($_POST['username']) && isset($_POST['password']) && empty($_POST['username']) == false && empty($_POST['password']) == false) {
             foreach ($dati as $utente) {
-                if ($utente['login'] === $_GET['username'] && $utente['password'] === $_GET['password']) {
-                    echo "<h1>Benvenuto " . $utente['nome'] . "</h1>";
-                    echo "<h3>Accesso effettuato con successo</h3>";
-                    $controllo = false;
-                    break;
-                }
+                login($utente);
             }
             if ($controllo) {
                 echo "<h1>Accesso negato</h1>";
                 echo "<h3>Username o password errati</h3>";
             }
         } else {
-            echo "<script>window.location.href = 'http://localhost/PHP/EsercitazioneGET/index.html';</script>";
+            echo "<script>window.location.href = 'http://localhost/PHP/GestioneCarrello/index.html';</script>";
             die();
         }
     ?>
     </div> 
     <?php
         if (!$controllo) {
-            echo("<div class=container>");
-            echo("<h1> Dati </h1>");
-            echo("<h4>" . (isset($utente) ? $utente['nome'] : '') . " i tuoi dati sono i seguenti: </h4>");
-            echo "<p>";
-            foreach ($utente as $k => $v) {
-                echo "$k: $v<br>";
-            }
-            echo "</p>";
-            echo("</div>");
+            
         }
     ?>
 </body>

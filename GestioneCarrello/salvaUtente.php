@@ -139,7 +139,7 @@
         if(!file_exists($nomeFile)){
         die("<div><h1>ERRORE DEL SISTEMA</h1></div>");
         }else{
-            if(empty($_GET["nome"]) || empty($_GET["cognome"]) || empty($_GET["email"]) || empty($_GET["login"]) || empty($_GET["password"])){
+            if(empty($_POST["nome"]) || empty($_POST["cognome"]) || empty($_POST["email"]) || empty($_POST["login"]) || empty($_POST["password"])){
                 $errore = "<div><h1>Dati mancanti</h1></div>";
             } else {
             //leggere il file
@@ -149,18 +149,18 @@
             $dati = json_decode($json, true);
 
             foreach($dati as $utente){
-                if($utente["login"] === $_GET["login"]){
+                if($utente["login"] === $_POST["login"]){
                     $errore = "<div><h1>Utente già esistente</h1></div>";
                 }
             }
 
             if($errore === ""){
             $utente = [
-                "nome"=>$_GET["nome"],
-                "cognome"=>$_GET["cognome"],
-                "email"=>$_GET["email"],
-                "login"=>$_GET["login"],
-                "password"=>$_GET["password"]
+                "nome"=>$_POST["nome"],
+                "cognome"=>$_POST["cognome"],
+                "email"=>$_POST["email"],
+                "login"=>$_POST["login"],
+                "password"=>$_POST["password"]
             ];
 
             //aggiungere l'utente
