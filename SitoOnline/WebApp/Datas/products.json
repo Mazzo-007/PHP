@@ -1,0 +1,803 @@
+[
+    {
+      "id": "P001",
+      "name": "Smartphone Samsung Galaxy S23",
+      "category": "Telefonia",
+      "description": "Smartphone Android con display AMOLED da 6.1 pollici e fotocamera tripla.",
+      "quantity_available": 50,
+      "cost": 799.99
+    },
+    {
+      "id": "P002",
+      "name": "Apple iPhone 14",
+      "category": "Telefonia",
+      "description": "Smartphone con chip A15 Bionic e doppia fotocamera avanzata.",
+      "quantity_available": 40,
+      "cost": 899.99
+    },
+    {
+      "id": "P003",
+      "name": "Notebook Lenovo IdeaPad 3",
+      "category": "Elettronica",
+      "description": "Laptop da 15.6 pollici con processore Intel i5 e 8GB RAM.",
+      "quantity_available": 70,
+      "cost": 549.99
+    },
+    {
+      "id": "P004",
+      "name": "Cuffie Sony WH-1000XM5",
+      "category": "Elettronica",
+      "description": "Cuffie wireless con cancellazione del rumore e autonomia fino a 30 ore.",
+      "quantity_available": 120,
+      "cost": 349.99
+    },
+    {
+      "id": "P005",
+      "name": "Maglietta Nike Dri-FIT",
+      "category": "Vestiti",
+      "description": "T-shirt sportiva traspirante in tessuto tecnico.",
+      "quantity_available": 200,
+      "cost": 29.99
+    },
+    {
+      "id": "P006",
+      "name": "Jeans Levi's 501",
+      "category": "Vestiti",
+      "description": "Jeans classici a gamba dritta in denim blu.",
+      "quantity_available": 150,
+      "cost": 79.99
+    },
+    {
+      "id": "P007",
+      "name": "Quaderno spiralato A4",
+      "category": "Cartoleria",
+      "description": "Quaderno con 100 pagine a righe, copertina rigida.",
+      "quantity_available": 300,
+      "cost": 3.99
+    },
+    {
+      "id": "P008",
+      "name": "Penna a sfera Bic Cristal",
+      "category": "Cartoleria",
+      "description": "Penna a sfera blu con punta media.",
+      "quantity_available": 500,
+      "cost": 0.99
+    },
+    {
+      "id": "P009",
+      "name": "Shampoo Pantene Pro-V",
+      "category": "Igiene",
+      "description": "Shampoo nutriente per capelli lisci e luminosi.",
+      "quantity_available": 250,
+      "cost": 4.99
+    },
+    {
+      "id": "P010",
+      "name": "Dentifricio Colgate Total",
+      "category": "Igiene",
+      "description": "Dentifricio per protezione completa e igiene orale quotidiana.",
+      "quantity_available": 400,
+      "cost": 2.99
+    },
+    {
+      "id": "P011",
+      "name": "Tablet Huawei MatePad 11",
+      "category": "Elettronica",
+      "description": "Tablet con display da 11 pollici e supporto penna digitale.",
+      "quantity_available": 65,
+      "cost": 399.99
+    },
+    {
+      "id": "P012",
+      "name": "Xiaomi Redmi Note 12",
+      "category": "Telefonia",
+      "description": "Smartphone con batteria da 5000mAh e fotocamera da 108MP.",
+      "quantity_available": 90,
+      "cost": 299.99
+    },
+    {
+      "id": "P013",
+      "name": "Felpa Adidas Essentials",
+      "category": "Vestiti",
+      "description": "Felpa con cappuccio in cotone, comoda e casual.",
+      "quantity_available": 180,
+      "cost": 49.99
+    },
+    {
+      "id": "P014",
+      "name": "Zaino Eastpak Padded",
+      "category": "Cartoleria",
+      "description": "Zaino resistente con scomparto principale e tasca frontale.",
+      "quantity_available": 130,
+      "cost": 39.99
+    },
+    {
+      "id": "P015",
+      "name": "Deodorante Dove Men+Care",
+      "category": "Igiene",
+      "description": "Deodorante spray per una protezione duratura.",
+      "quantity_available": 220,
+      "cost": 3.49
+    },
+    {
+      "id": "P016",
+      "name": "Monitor LG UltraGear 27''",
+      "category": "Elettronica",
+      "description": "Monitor gaming con refresh rate 165Hz e risoluzione QHD.",
+      "quantity_available": 55,
+      "cost": 459.99
+    },
+    {
+      "id": "P017",
+      "name": "Huawei P60 Pro",
+      "category": "Telefonia",
+      "description": "Smartphone con fotocamera Leica e display OLED.",
+      "quantity_available": 35,
+      "cost": 999.99
+    },
+    {
+      "id": "P018",
+      "name": "Scarpe Converse Chuck Taylor",
+      "category": "Vestiti",
+      "description": "Sneakers classiche in tela bianca.",
+      "quantity_available": 140,
+      "cost": 69.99
+    },
+    {
+      "id": "P019",
+      "name": "Set evidenziatori Stabilo Boss",
+      "category": "Cartoleria",
+      "description": "Confezione da 6 evidenziatori in colori assortiti.",
+      "quantity_available": 260,
+      "cost": 5.99
+    },
+    {
+      "id": "P020",
+      "name": "Sapone liquido Neutro Roberts",
+      "category": "Igiene",
+      "description": "Sapone delicato per mani e corpo.",
+      "quantity_available": 310,
+      "cost": 2.49
+    },
+    {
+      "id": "P021",
+      "name": "Televisore Samsung QLED 55''",
+      "category": "Elettronica",
+      "description": "TV QLED 4K con HDR e assistente vocale integrato.",
+      "quantity_available": 45,
+      "cost": 699.99
+    },
+    {
+      "id": "P022",
+      "name": "OnePlus 11",
+      "category": "Telefonia",
+      "description": "Smartphone con Snapdragon 8 Gen 2 e display AMOLED.",
+      "quantity_available": 55,
+      "cost": 749.99
+    },
+    {
+      "id": "P023",
+      "name": "Giacca The North Face",
+      "category": "Vestiti",
+      "description": "Giacca impermeabile e traspirante per outdoor.",
+      "quantity_available": 100,
+      "cost": 129.99
+    },
+    {
+      "id": "P024",
+      "name": "Set matite Faber-Castell",
+      "category": "Cartoleria",
+      "description": "Confezione da 12 matite colorate di alta qualità.",
+      "quantity_available": 280,
+      "cost": 6.99
+    },
+    {
+      "id": "P025",
+      "name": "Bagnoschiuma Dove",
+      "category": "Igiene",
+      "description": "Bagnoschiuma idratante con formula delicata.",
+      "quantity_available": 350,
+      "cost": 3.99
+    },
+    {
+      "id": "P026",
+      "name": "Stampante HP LaserJet",
+      "category": "Elettronica",
+      "description": "Stampante laser monocromatica veloce e compatta.",
+      "quantity_available": 60,
+      "cost": 199.99
+    },
+    {
+      "id": "P027",
+      "name": "Google Pixel 8",
+      "category": "Telefonia",
+      "description": "Smartphone con fotocamera avanzata e Android puro.",
+      "quantity_available": 40,
+      "cost": 899.99
+    },
+    {
+      "id": "P028",
+      "name": "Pantaloni Zara Slim Fit",
+      "category": "Vestiti",
+      "description": "Pantaloni eleganti slim fit in tessuto leggero.",
+      "quantity_available": 160,
+      "cost": 49.99
+    },
+    {
+      "id": "P029",
+      "name": "Agenda Moleskine 2025",
+      "category": "Cartoleria",
+      "description": "Agenda settimanale con copertina rigida nera.",
+      "quantity_available": 220,
+      "cost": 19.99
+    },
+    {
+      "id": "P030",
+      "name": "Collutorio Listerine",
+      "category": "Igiene",
+      "description": "Collutorio antibatterico per una bocca fresca.",
+      "quantity_available": 270,
+      "cost": 5.49
+    },
+    {
+      "id": "P031",
+      "name": "Mouse Logitech MX Master 3",
+      "category": "Elettronica",
+      "description": "Mouse wireless ergonomico con scorrimento veloce.",
+      "quantity_available": 90,
+      "cost": 99.99
+    },
+    {
+      "id": "P032",
+      "name": "Oppo Reno 10",
+      "category": "Telefonia",
+      "description": "Smartphone con ricarica rapida e fotocamera da 64MP.",
+      "quantity_available": 65,
+      "cost": 499.99
+    },
+    {
+      "id": "P033",
+      "name": "Cappotto H&M",
+      "category": "Vestiti",
+      "description": "Cappotto lungo in lana misto poliestere.",
+      "quantity_available": 110,
+      "cost": 89.99
+    },
+    {
+      "id": "P034",
+      "name": "Set penne gel Pilot",
+      "category": "Cartoleria",
+      "description": "Confezione da 10 penne gel a colori assortiti.",
+      "quantity_available": 240,
+      "cost": 7.99
+    },
+    {
+      "id": "P035",
+      "name": "Crema Nivea Soft",
+      "category": "Igiene",
+      "description": "Crema idratante multiuso per viso e corpo.",
+      "quantity_available": 310,
+      "cost": 4.49
+    },
+    {
+      "id": "P036",
+      "name": "Auricolari JBL Tune 230",
+      "category": "Elettronica",
+      "description": "Auricolari true wireless con bassi potenti.",
+      "quantity_available": 150,
+      "cost": 79.99
+    },
+    {
+      "id": "P037",
+      "name": "Realme GT Neo 5",
+      "category": "Telefonia",
+      "description": "Smartphone con ricarica ultra rapida da 240W.",
+      "quantity_available": 50,
+      "cost": 599.99
+    },
+    {
+      "id": "P038",
+      "name": "Vestito Mango Elegante",
+      "category": "Vestiti",
+      "description": "Vestito lungo da sera in tessuto satinato.",
+      "quantity_available": 90,
+      "cost": 119.99
+    },
+    {
+      "id": "P039",
+      "name": "Blocco appunti Oxford",
+      "category": "Cartoleria",
+      "description": "Blocco A4 con 80 fogli microperforati.",
+      "quantity_available": 260,
+      "cost": 4.49
+    },
+    {
+      "id": "P040",
+      "name": "Gel igienizzante mani Amuchina",
+      "category": "Igiene",
+      "description": "Gel disinfettante per mani con formula antibatterica.",
+      "quantity_available": 400,
+      "cost": 2.99
+    },
+    {
+      "id": "P041",
+      "name": "Telecamera IP Ezviz",
+      "category": "Elettronica",
+      "description": "Telecamera di sorveglianza Wi-Fi con visione notturna.",
+      "quantity_available": 80,
+      "cost": 59.99
+    },
+    {
+      "id": "P042",
+      "name": "Xiaomi Mi 13",
+      "category": "Telefonia",
+      "description": "Smartphone con display AMOLED e fotocamera da 50MP.",
+      "quantity_available": 45,
+      "cost": 699.99
+    },
+    {
+      "id": "P043",
+      "name": "Maglione Benetton",
+      "category": "Vestiti",
+      "description": "Maglione in lana merino, caldo e confortevole.",
+      "quantity_available": 130,
+      "cost": 59.99
+    },
+    {
+      "id": "P044",
+      "name": "Set quaderni Pigna",
+      "category": "Cartoleria",
+      "description": "Confezione da 5 quaderni formato A4 a quadretti.",
+      "quantity_available": 320,
+      "cost": 8.99
+    },
+    {
+      "id": "P045",
+      "name": "Balsamo Garnier Fructis",
+      "category": "Igiene",
+      "description": "Balsamo nutriente per capelli secchi e danneggiati.",
+      "quantity_available": 260,
+      "cost": 3.49
+    },
+    {
+      "id": "P046",
+      "name": "Router TP-Link Archer AX55",
+      "category": "Elettronica",
+      "description": "Router Wi-Fi 6 dual-band ad alte prestazioni.",
+      "quantity_available": 70,
+      "cost": 129.99
+    },
+    {
+      "id": "P047",
+      "name": "Motorola Edge 40",
+      "category": "Telefonia",
+      "description": "Smartphone con display curvo e ricarica rapida.",
+      "quantity_available": 50,
+      "cost": 599.99
+    },
+    {
+      "id": "P048",
+      "name": "Giacca di pelle Diesel",
+      "category": "Vestiti",
+      "description": "Giacca in vera pelle nera dal look moderno.",
+      "quantity_available": 75,
+      "cost": 199.99
+    },
+    {
+      "id": "P049",
+      "name": "Set penne stilografiche Parker",
+      "category": "Cartoleria",
+      "description": "Set di 2 penne stilografiche con inchiostro blu.",
+      "quantity_available": 90,
+      "cost": 49.99
+    },
+    {
+      "id": "P050",
+      "name": "Crema mani CeraVe",
+      "category": "Igiene",
+      "description": "Crema idratante per mani secche e screpolate.",
+      "quantity_available": 210,
+      "cost": 5.99
+    },
+    {
+      "id": "P051",
+      "name": "Hard Disk esterno Seagate 2TB",
+      "category": "Elettronica",
+      "description": "Unità di archiviazione portatile USB 3.0.",
+      "quantity_available": 85,
+      "cost": 79.99
+    },
+    {
+      "id": "P052",
+      "name": "Honor Magic 6",
+      "category": "Telefonia",
+      "description": "Smartphone con fotocamera AI e display OLED.",
+      "quantity_available": 40,
+      "cost": 799.99
+    },
+    {
+      "id": "P053",
+      "name": "Camicia Ralph Lauren",
+      "category": "Vestiti",
+      "description": "Camicia elegante in cotone bianco.",
+      "quantity_available": 120,
+      "cost": 89.99
+    },
+    {
+      "id": "P054",
+      "name": "Set evidenziatori Staedtler",
+      "category": "Cartoleria",
+      "description": "Confezione da 8 evidenziatori fluorescenti.",
+      "quantity_available": 250,
+      "cost": 9.99
+    },
+    {
+      "id": "P055",
+      "name": "Detergente viso Clinique",
+      "category": "Igiene",
+      "description": "Detergente delicato per pelli sensibili.",
+      "quantity_available": 180,
+      "cost": 19.99
+    },
+    {
+      "id": "P056",
+      "name": "Speaker Bluetooth Bose SoundLink",
+      "category": "Elettronica",
+      "description": "Altoparlante portatile con audio potente e chiaro.",
+      "quantity_available": 95,
+      "cost": 149.99
+    },
+    {
+      "id": "P057",
+      "name": "Samsung Galaxy A54",
+      "category": "Telefonia",
+      "description": "Smartphone di fascia media con ottima autonomia.",
+      "quantity_available": 70,
+      "cost": 399.99
+    },
+    {
+      "id": "P058",
+      "name": "Vestito estivo H&M",
+      "category": "Vestiti",
+      "description": "Vestito leggero in cotone floreale.",
+      "quantity_available": 140,
+      "cost": 39.99
+    },
+    {
+      "id": "P059",
+      "name": "Set penne roller Pentel",
+      "category": "Cartoleria",
+      "description": "Confezione da 4 penne roller a inchiostro nero.",
+      "quantity_available": 200,
+      "cost": 6.99
+    },
+    {
+      "id": "P060",
+      "name": "Shampoo Head & Shoulders",
+      "category": "Igiene",
+      "description": "Shampoo antiforfora con formula rinfrescante.",
+      "quantity_available": 300,
+      "cost": 4.49
+    },
+    {
+      "id": "P061",
+      "name": "Monitor Philips 24'' Full HD",
+      "category": "Elettronica",
+      "description": "Monitor LED con risoluzione 1920x1080 e tecnologia Flicker-Free.",
+      "quantity_available": 85,
+      "cost": 129.99
+    },
+    {
+      "id": "P062",
+      "name": "Vivo X90 Pro",
+      "category": "Telefonia",
+      "description": "Smartphone con fotocamera professionale e processore Dimensity 9200.",
+      "quantity_available": 35,
+      "cost": 899.99
+    },
+    {
+      "id": "P063",
+      "name": "Giacca impermeabile Columbia",
+      "category": "Vestiti",
+      "description": "Giacca outdoor impermeabile e traspirante.",
+      "quantity_available": 95,
+      "cost": 119.99
+    },
+    {
+      "id": "P064",
+      "name": "Set penne stilografiche Lamy",
+      "category": "Cartoleria",
+      "description": "Set di 3 penne stilografiche con cartucce di ricambio.",
+      "quantity_available": 70,
+      "cost": 59.99
+    },
+    {
+      "id": "P065",
+      "name": "Sapone Dove Sensitive",
+      "category": "Igiene",
+      "description": "Sapone delicato per pelli sensibili.",
+      "quantity_available": 280,
+      "cost": 2.99
+    },
+    {
+      "id": "P066",
+      "name": "Cuffie Beats Studio Pro",
+      "category": "Elettronica",
+      "description": "Cuffie wireless con audio ad alta fedeltà.",
+      "quantity_available": 60,
+      "cost": 379.99
+    },
+    {
+      "id": "P067",
+      "name": "Sony Xperia 10 V",
+      "category": "Telefonia",
+      "description": "Smartphone con display OLED e audio Hi-Res.",
+      "quantity_available": 40,
+      "cost": 499.99
+    },
+    {
+      "id": "P068",
+      "name": "Polo Lacoste",
+      "category": "Vestiti",
+      "description": "Polo classica in cotone piqué.",
+      "quantity_available": 150,
+      "cost": 89.99
+    },
+    {
+      "id": "P069",
+      "name": "Set matite Staedtler Noris",
+      "category": "Cartoleria",
+      "description": "Confezione da 12 matite HB.",
+      "quantity_available": 300,
+      "cost": 4.99
+    },
+    {
+      "id": "P070",
+      "name": "Gel doccia Palmolive",
+      "category": "Igiene",
+      "description": "Gel doccia rinfrescante con estratti naturali.",
+      "quantity_available": 260,
+      "cost": 3.49
+    },
+    {
+      "id": "P071",
+      "name": "Stampante Canon Pixma",
+      "category": "Elettronica",
+      "description": "Stampante multifunzione a getto d'inchiostro.",
+      "quantity_available": 75,
+      "cost": 149.99
+    },
+    {
+      "id": "P072",
+      "name": "Realme Narzo 60",
+      "category": "Telefonia",
+      "description": "Smartphone con batteria da 5000mAh e ricarica rapida.",
+      "quantity_available": 55,
+      "cost": 299.99
+    },
+    {
+      "id": "P073",
+      "name": "Vestito Zara Casual",
+      "category": "Vestiti",
+      "description": "Vestito corto in cotone leggero.",
+      "quantity_available": 180,
+      "cost": 39.99
+    },
+    {
+      "id": "P074",
+      "name": "Blocco note Rhodia",
+      "category": "Cartoleria",
+      "description": "Blocco A5 con 80 fogli a quadretti.",
+      "quantity_available": 220,
+      "cost": 5.99
+    },
+    {
+      "id": "P075",
+      "name": "Dentifricio Sensodyne",
+      "category": "Igiene",
+      "description": "Dentifricio per denti sensibili.",
+      "quantity_available": 310,
+      "cost": 4.49
+    },
+    {
+      "id": "P076",
+      "name": "Auricolari Anker Soundcore",
+      "category": "Elettronica",
+      "description": "Auricolari true wireless con lunga autonomia.",
+      "quantity_available": 140,
+      "cost": 59.99
+    },
+    {
+      "id": "P077",
+      "name": "Nokia G22",
+      "category": "Telefonia",
+      "description": "Smartphone con design riparabile e Android stock.",
+      "quantity_available": 65,
+      "cost": 249.99
+    },
+    {
+      "id": "P078",
+      "name": "Giacca Uniqlo Ultra Light",
+      "category": "Vestiti",
+      "description": "Giacca leggera e comprimibile per viaggi.",
+      "quantity_available": 100,
+      "cost": 69.99
+    },
+    {
+      "id": "P079",
+      "name": "Set evidenziatori Stabilo Pastel",
+      "category": "Cartoleria",
+      "description": "Confezione da 6 evidenziatori in colori pastello.",
+      "quantity_available": 240,
+      "cost": 7.99
+    },
+    {
+      "id": "P080",
+      "name": "Crema corpo Biopoint",
+      "category": "Igiene",
+      "description": "Crema idratante corpo con estratti naturali.",
+      "quantity_available": 200,
+      "cost": 9.99
+    },
+    {
+      "id": "P081",
+      "name": "Televisore LG OLED 48''",
+      "category": "Elettronica",
+      "description": "TV OLED 4K con Dolby Vision e Dolby Atmos.",
+      "quantity_available": 40,
+      "cost": 1099.99
+    },
+    {
+      "id": "P082",
+      "name": "Samsung Galaxy Z Flip 5",
+      "category": "Telefonia",
+      "description": "Smartphone pieghevole con display AMOLED da 6.7 pollici.",
+      "quantity_available": 30,
+      "cost": 1199.99
+    },
+    {
+      "id": "P083",
+      "name": "Giacca sportiva Puma",
+      "category": "Vestiti",
+      "description": "Giacca leggera per attività sportive.",
+      "quantity_available": 140,
+      "cost": 59.99
+    },
+    {
+      "id": "P084",
+      "name": "Set penne Bic Intensity",
+      "category": "Cartoleria",
+      "description": "Confezione da 8 penne colorate a punta fine.",
+      "quantity_available": 280,
+      "cost": 6.49
+    },
+    {
+      "id": "P085",
+      "name": "Gel doccia Nivea Men",
+      "category": "Igiene",
+      "description": "Gel doccia rinfrescante per uomo.",
+      "quantity_available": 260,
+      "cost": 3.99
+    },
+    {
+      "id": "P086",
+      "name": "Cuffie Sennheiser HD 450BT",
+      "category": "Elettronica",
+      "description": "Cuffie wireless con cancellazione del rumore.",
+      "quantity_available": 75,
+      "cost": 149.99
+    },
+    {
+      "id": "P087",
+      "name": "Xiaomi Poco F5",
+      "category": "Telefonia",
+      "description": "Smartphone con Snapdragon 7+ Gen 2 e display AMOLED.",
+      "quantity_available": 55,
+      "cost": 399.99
+    },
+    {
+      "id": "P088",
+      "name": "Vestito estivo Pull&Bear",
+      "category": "Vestiti",
+      "description": "Vestito corto in tessuto leggero.",
+      "quantity_available": 160,
+      "cost": 29.99
+    },
+    {
+      "id": "P089",
+      "name": "Set quaderni Oxford International",
+      "category": "Cartoleria",
+      "description": "Confezione da 3 quaderni A4 con carta premium.",
+      "quantity_available": 200,
+      "cost": 12.99
+    },
+    {
+      "id": "P090",
+      "name": "Collutorio Elmex",
+      "category": "Igiene",
+      "description": "Collutorio protettivo per denti sensibili.",
+      "quantity_available": 300,
+      "cost": 5.99
+    },
+    {
+      "id": "P091",
+      "name": "Tablet Samsung Galaxy Tab S9",
+      "category": "Elettronica",
+      "description": "Tablet con display AMOLED da 11 pollici e S-Pen inclusa.",
+      "quantity_available": 45,
+      "cost": 899.99
+    },
+    {
+      "id": "P092",
+      "name": "Google Pixel Fold",
+      "category": "Telefonia",
+      "description": "Smartphone pieghevole con fotocamera avanzata.",
+      "quantity_available": 25,
+      "cost": 1799.99
+    },
+    {
+      "id": "P093",
+      "name": "Felpa Champion",
+      "category": "Vestiti",
+      "description": "Felpa con cappuccio in cotone.",
+      "quantity_available": 180,
+      "cost": 49.99
+    },
+    {
+      "id": "P094",
+      "name": "Set penne gel Uni-ball",
+      "category": "Cartoleria",
+      "description": "Confezione da 6 penne gel nere.",
+      "quantity_available": 240,
+      "cost": 8.99
+    },
+    {
+      "id": "P095",
+      "name": "Crema viso Garnier",
+      "category": "Igiene",
+      "description": "Crema idratante per pelli normali e secche.",
+      "quantity_available": 220,
+      "cost": 7.99
+    },
+    {
+      "id": "P096",
+      "name": "Speaker Bluetooth JBL Flip 6",
+      "category": "Elettronica",
+      "description": "Altoparlante portatile impermeabile con bassi potenti.",
+      "quantity_available": 100,
+      "cost": 129.99
+    },
+    {
+      "id": "P097",
+      "name": "Huawei Mate 60 Pro",
+      "category": "Telefonia",
+      "description": "Smartphone con fotocamera tripla e batteria da 5000mAh.",
+      "quantity_available": 35,
+      "cost": 1099.99
+    },
+    {
+      "id": "P098",
+      "name": "Pantaloni cargo Bershka",
+      "category": "Vestiti",
+      "description": "Pantaloni cargo in cotone verde militare.",
+      "quantity_available": 120,
+      "cost": 39.99
+    },
+    {
+      "id": "P099",
+      "name": "Set evidenziatori Pilot Pastel",
+      "category": "Cartoleria",
+      "description": "Confezione da 5 evidenziatori in colori pastello.",
+      "quantity_available": 260,
+      "cost": 6.99
+    },
+    {
+      "id": "P100",
+      "name": "Sapone liquido Felce Azzurra",
+      "category": "Igiene",
+      "description": "Sapone liquido profumato per mani e corpo.",
+      "quantity_available": 310,
+      "cost": 2.99
+    }
+]
+    

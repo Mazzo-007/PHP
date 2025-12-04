@@ -1,0 +1,17 @@
+Nella traccia proposta vi sono due dati principali da salvare in un database.
+I due tipi di dati proposti sono i PRODOTTI i quali hanno come chiave primaria 
+un ID, hanno poi altri numerosi attributi come nome, categoria, descrizione e 
+quantità disponibile; vi sono poi gli UTENTI identificati anch'essi da un ID 
+e con inoltre nome, cognome, login e password.
+
+Per la realizzazione del sito sono necessarie varie pagine:
+- Pages
+    - cartManagement.php
+    - index.php
+    - profile.html
+- Function
+    - login.php
+    - registration.php
+- Dati
+    - products.json
+    - user.json
